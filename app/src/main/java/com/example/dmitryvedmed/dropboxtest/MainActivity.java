@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.btnLogin:
                 mDBApi.getSession().startOAuth2Authentication(MainActivity.this);
                 break;
+
             case R.id.btnUpload:
                 new Upload().execute();
                 break;
